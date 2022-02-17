@@ -27,7 +27,8 @@
     "title": "Macias Davis",
     "imdb": 1.6,
     "year": 1990,
-    "genre": "Kinderfilm"
+    "genre": "Kinderfilm",
+    "source": "http://192.168.178.21:8080/New%20video.mp4"
   },
   {
     "index": 4,
