@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="flex text-center text-sm">
+    <div class="w-1/4" id='title'>Titel</div>
+    <div class="w-1/4" id='imdb'>IMDB</div>
+    <div class="w-1/4">Jahr</div>
+    <div class="w-1/4">Genre</div>
+  </div>
+
+  <div id='list'>
+  </div>
+
+  <div class="flex bottom-0 fixed w-full">
+    <video id='player' controls class="bg-black pt-4 w-full h-64" />
+  </div>
+  <script src="./src/script.js"> </script>
+</body>
+
+</html>
